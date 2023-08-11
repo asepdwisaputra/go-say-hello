@@ -1,5 +1,5 @@
 package gosayhello
 
-func SayHello() string { // Jngn lupa UpCase
-	return "Hello World"
+func SayHello(name string) string { // Jngn lupa UpCase
+	return "Hello" + name
 }

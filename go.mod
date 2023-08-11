@@ -1,3 +1,3 @@
-module github.com/asepdwisaputra/go-say-hello
+module github.com/asepdwisaputra/go-say-hello/v2
 
 go 1.20
