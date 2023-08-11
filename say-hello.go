@@ -1,5 +1,5 @@
 package gosayhello
 
-func SayHello(nama string, asal string) string { // Jngn lupa UpCase
-	return "Saya " + nama + ", asal " + asal
+func Alamat(kota, provinsi, negara string) (string, string, string) { // Jngn lupa UpCase
+	return kota, provinsi, negara
 }
