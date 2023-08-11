@@ -1,5 +1,12 @@
 package gosayhello
 
-func Alamat(kota, provinsi, negara string) (string, string, string) { // Jngn lupa UpCase
-	return kota, provinsi, negara
+import "fmt"
+
+type Mahasiswa struct {
+	Nama, Alamat string
+	NoHP         int
+}
+
+func (mahasiswa Mahasiswa) SayHello(namaOrang string) {
+	fmt.Println("Haii"+namaOrang, "aku"+mahasiswa.Nama, "Salam kenal!")
 }
